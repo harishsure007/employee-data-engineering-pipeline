@@ -1,0 +1,39 @@
+# =========================
+# Python
+# =========================
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Airflow (LOCAL ONLY – NEVER COMMIT)
+# =========================
+airflow_home/airflow.cfg
+airflow_home/airflow.db
+airflow_home/airflow.db-shm
+airflow_home/airflow.db-wal
+airflow_home/logs/
+airflow_home/simple_auth_manager_passwords.json.generated
+
+# =========================
+# Data (local datasets)
+# =========================
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+.vscode/
+.idea/
+
+# =========================
+# Docker
+# =========================
+*.log
+.env
+     
